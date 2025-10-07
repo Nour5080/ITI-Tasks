@@ -1,0 +1,55 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject UserManager<IdentityUser> UserManager
+@inject SignInManager<IdentityUser> SignInManager
+@using Microsoft.AspNetCore.Http
+
+@{
+    ViewData["Title"] = "Home";
+
+    // Student Session
+    var studentName = Context.Session.GetString("StudentName");
+
+    // Identity User
+    string loggedUserName = null;
+    string loggedUserRole = null;
+    if (SignInManager.IsSignedIn(User))
+    {
+        var user = UserManager.GetUserAsync(User).Result;
+        if (user != null)
+        {
+            loggedUserName = user.UserName;
+            var roles = UserManager.GetRolesAsync(user).Result;
+            loggedUserRole = roles.FirstOrDefault();
+        }
+    }
+}
+
+<div class="container mt-5">
+    <div class="card shadow rounded p-5 text-center bg-light">
+        <h1 class="mb-4">Welcome to MyFirstProject</h1>
+        <p class="lead mb-4">
+            This is a sample educational platform where students can enroll in courses,
+            instructors can manage their courses, and admins have full control.
+        </p>
+
+        @if (!string.IsNullOrEmpty(studentName))
+        {
+            <div class="alert alert-success mt-3">
+                Hello, <strong>@studentName</strong>! You are already logged in as <strong>Student</strong>.
+            </div>
+        }
+        else if (!string.IsNullOrEmpty(loggedUserName))
+        {
+            <div class="alert alert-info mt-3">
+                Hello, <strong>@loggedUserName</strong>! You are logged in as <strong>@loggedUserRole</strong>.
+            </div>
+        }
+        else
+        {
+            <div class="d-flex justify-content-center gap-3 mt-4 flex-wrap">
+                <a asp-controller="Account" asp-action="Register" class="btn btn-primary btn-lg px-4">Register</a>
+                <a asp-controller="Account" asp-action="Login" class="btn btn-outline-primary btn-lg px-4">Login</a>
+            </div>
+        }
+    </div>
+</div>

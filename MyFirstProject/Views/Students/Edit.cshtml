@@ -1,0 +1,77 @@
+﻿@model MyFirstProject.Models.Student
+
+<h2>Edit Student</h2>
+
+<form asp-action="Edit" enctype="multipart/form-data" method="post">
+    @Html.AntiForgeryToken()
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group mb-3">
+        <label asp-for="Name" class="form-label"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="Address" class="form-label"></label>
+        <input asp-for="Address" class="form-control" placeholder="مثال: 15 شارع النصر، القاهرة" />
+        <span asp-validation-for="Address" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="Grade" class="form-label"></label>
+        <input asp-for="Grade" class="form-control" />
+        <span asp-validation-for="Grade" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="DeptId" class="form-label">Department</label>
+        <select asp-for="DeptId" asp-items="ViewBag.DeptId" class="form-select">
+            <option value="">-- Select Department --</option>
+        </select>
+    </div>
+
+    <div class="form-group mb-3">
+        <label>Current Image</label><br />
+        @if (!string.IsNullOrEmpty(Model.Image))
+        {
+            <img src="@Model.ImageFile" alt="@Model.Name"
+                 style="width:150px;height:150px;object-fit:cover;border-radius:10px;border:1px solid #ccc;margin-bottom:10px;" />
+        }
+        else
+        {
+            <div style="width:150px;height:150px;border-radius:10px;background:#eee;
+                            display:flex;align-items:center;justify-content:center;
+                            font-weight:bold;color:#aaa;margin-bottom:10px;">
+                No Image
+            </div>
+        }
+    </div>
+
+    <div class="form-group mb-3">
+        <label>Upload New Image (optional, JPG only)</label>
+        <input type="file" name="ImageFile" class="form-control" accept=".jpg" onchange="previewNewImage(event)" />
+        <div class="mt-2">
+            <img id="newImagePreview" src="#" alt="New Image Preview" style="display:none;width:150px;height:150px;object-fit:cover;border-radius:10px;border:1px solid #ccc;" />
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-2">Save</button>
+    <a asp-action="Index" class="btn btn-secondary mt-2">Cancel</a>
+</form>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+
+    <script>
+        function previewNewImage(event) {
+            var reader = new FileReader();
+            reader.onload = function () {
+                var output = document.getElementById('newImagePreview');
+                output.src = reader.result;
+                output.style.display = 'block';
+            };
+            reader.readAsDataURL(event.target.files[0]);
+        }
+    </script>
+}
