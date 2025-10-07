@@ -1,0 +1,799 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\ITI\\MyFirstProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|f:\\iti\\myfirstproject\\myfirstproject\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|f:\\iti\\myfirstproject\\myfirstproject\\views\\courses\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\views\\courses\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|f:\\iti\\myfirstproject\\myfirstproject\\views\\courses\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\views\\courses\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|f:\\iti\\myfirstproject\\myfirstproject\\views\\courses\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\views\\courses\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|f:\\iti\\myfirstproject\\myfirstproject\\views\\courses\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\views\\courses\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|f:\\iti\\myfirstproject\\myfirstproject\\views\\coursestudents\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\views\\coursestudents\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|f:\\iti\\myfirstproject\\myfirstproject\\views\\coursestudents\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\views\\coursestudents\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|f:\\iti\\myfirstproject\\myfirstproject\\models\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\models\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|f:\\iti\\myfirstproject\\myfirstproject\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|f:\\iti\\myfirstproject\\myfirstproject\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\repositories\\studentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|f:\\iti\\myfirstproject\\myfirstproject\\repositories\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\repositories\\istudentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|f:\\iti\\myfirstproject\\myfirstproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|f:\\iti\\myfirstproject\\myfirstproject\\repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\repositories\\courserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|f:\\iti\\myfirstproject\\myfirstproject\\repositories\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\repositories\\icourserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|f:\\iti\\myfirstproject\\myfirstproject\\repositories\\icoursestudentsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\repositories\\icoursestudentsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|f:\\iti\\myfirstproject\\myfirstproject\\views\\instructors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\views\\instructors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|f:\\iti\\myfirstproject\\myfirstproject\\repositories\\coursestudentsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\repositories\\coursestudentsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|f:\\iti\\myfirstproject\\myfirstproject\\models\\coursestudentsgroupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\models\\coursestudentsgroupviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|f:\\iti\\myfirstproject\\myfirstproject\\models\\coursestudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\models\\coursestudents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|f:\\iti\\myfirstproject\\myfirstproject\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|f:\\iti\\myfirstproject\\myfirstproject\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|f:\\iti\\myfirstproject\\myfirstproject\\filters\\authorizestudentfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\filters\\authorizestudentfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|f:\\iti\\myfirstproject\\myfirstproject\\helpers\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\helpers\\paginatedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|f:\\iti\\myfirstproject\\myfirstproject\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|f:\\iti\\myfirstproject\\myfirstproject\\views\\students\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\views\\students\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|f:\\iti\\myfirstproject\\myfirstproject\\views\\students\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\views\\students\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|f:\\iti\\myfirstproject\\myfirstproject\\views\\students\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\views\\students\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|f:\\iti\\myfirstproject\\myfirstproject\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|f:\\iti\\myfirstproject\\myfirstproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|f:\\iti\\myfirstproject\\myfirstproject\\views\\instructors\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\views\\instructors\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|f:\\iti\\myfirstproject\\myfirstproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|f:\\iti\\myfirstproject\\myfirstproject\\views\\coursestudents\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\views\\coursestudents\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|f:\\iti\\myfirstproject\\myfirstproject\\views\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\views\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|f:\\iti\\myfirstproject\\myfirstproject\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|f:\\iti\\myfirstproject\\myfirstproject\\views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|f:\\iti\\myfirstproject\\myfirstproject\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|f:\\iti\\myfirstproject\\myfirstproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|f:\\iti\\myfirstproject\\myfirstproject\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|f:\\iti\\myfirstproject\\myfirstproject\\models\\designtimedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\models\\designtimedbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|f:\\iti\\myfirstproject\\myfirstproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|f:\\iti\\myfirstproject\\myfirstproject\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|f:\\iti\\myfirstproject\\myfirstproject\\myfirstproject.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\myfirstproject.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|f:\\iti\\myfirstproject\\myfirstproject\\repositories\\ireadablerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\repositories\\ireadablerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|f:\\iti\\myfirstproject\\myfirstproject\\repositories\\iwritablerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\repositories\\iwritablerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\ITI\\MyFirstProject\\MyFirstProject\\Migrations\\20251005130032_FixPendingChanges.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MyFirstProject\\Migrations\\20251005130032_FixPendingChanges.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|f:\\iti\\myfirstproject\\myfirstproject\\migrations\\20251005130403_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\migrations\\20251005130403_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|f:\\iti\\myfirstproject\\myfirstproject\\migrations\\20251005175920_addpasswordininstractour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\migrations\\20251005175920_addpasswordininstractour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|f:\\iti\\myfirstproject\\myfirstproject\\migrations\\20251007104814_makeinstructorfieldsnullable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C44BEC56-8E33-4670-A017-9F57E0F96E8D}|MyFirstProject\\MyFirstProject.csproj|solutionrelative:myfirstproject\\migrations\\20251007104814_makeinstructorfieldsnullable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Views\\Courses\\Delete.cshtml",
+              "RelativeDocumentMoniker": "MyFirstProject\\Views\\Courses\\Delete.cshtml",
+              "ToolTip": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Views\\Courses\\Delete.cshtml",
+              "RelativeToolTip": "MyFirstProject\\Views\\Courses\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-07T21:08:03.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Views\\Courses\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MyFirstProject\\Views\\Courses\\Edit.cshtml",
+              "ToolTip": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Views\\Courses\\Edit.cshtml",
+              "RelativeToolTip": "MyFirstProject\\Views\\Courses\\Edit.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAcwCAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-07T21:05:35.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Views\\Courses\\Create.cshtml",
+              "RelativeDocumentMoniker": "MyFirstProject\\Views\\Courses\\Create.cshtml",
+              "ToolTip": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Views\\Courses\\Create.cshtml",
+              "RelativeToolTip": "MyFirstProject\\Views\\Courses\\Create.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAcwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-07T20:26:29.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Views\\Courses\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyFirstProject\\Views\\Courses\\Index.cshtml",
+              "ToolTip": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Views\\Courses\\Index.cshtml",
+              "RelativeToolTip": "MyFirstProject\\Views\\Courses\\Index.cshtml",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAcwKAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-07T21:02:50.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CoursesController.cs",
+              "DocumentMoniker": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Controllers\\CoursesController.cs",
+              "RelativeDocumentMoniker": "MyFirstProject\\Controllers\\CoursesController.cs",
+              "ToolTip": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Controllers\\CoursesController.cs",
+              "RelativeToolTip": "MyFirstProject\\Controllers\\CoursesController.cs",
+              "ViewState": "AgIAALYAAAAAAAAAAAAcwLwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T13:53:34.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Views\\CourseStudents\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MyFirstProject\\Views\\CourseStudents\\Edit.cshtml",
+              "ToolTip": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Views\\CourseStudents\\Edit.cshtml",
+              "RelativeToolTip": "MyFirstProject\\Views\\CourseStudents\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-07T19:47:37.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Views\\CourseStudents\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyFirstProject\\Views\\CourseStudents\\Index.cshtml",
+              "ToolTip": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Views\\CourseStudents\\Index.cshtml",
+              "RelativeToolTip": "MyFirstProject\\Views\\CourseStudents\\Index.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAcwEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-07T12:33:24.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Instructor.cs",
+              "DocumentMoniker": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Models\\Instructor.cs",
+              "RelativeDocumentMoniker": "MyFirstProject\\Models\\Instructor.cs",
+              "ToolTip": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Models\\Instructor.cs",
+              "RelativeToolTip": "MyFirstProject\\Models\\Instructor.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T23:47:11.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Student.cs",
+              "DocumentMoniker": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "MyFirstProject\\Models\\Student.cs",
+              "ToolTip": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Models\\Student.cs",
+              "RelativeToolTip": "MyFirstProject\\Models\\Student.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAcwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T13:13:02.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StudentRepository.cs",
+              "DocumentMoniker": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Repositories\\StudentRepository.cs",
+              "RelativeDocumentMoniker": "MyFirstProject\\Repositories\\StudentRepository.cs",
+              "ToolTip": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Repositories\\StudentRepository.cs",
+              "RelativeToolTip": "MyFirstProject\\Repositories\\StudentRepository.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwC0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T13:19:10.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IStudentRepository.cs",
+              "DocumentMoniker": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Repositories\\IStudentRepository.cs",
+              "RelativeDocumentMoniker": "MyFirstProject\\Repositories\\IStudentRepository.cs",
+              "ToolTip": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Repositories\\IStudentRepository.cs",
+              "RelativeToolTip": "MyFirstProject\\Repositories\\IStudentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T13:18:49.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Program.cs",
+              "RelativeDocumentMoniker": "MyFirstProject\\Program.cs",
+              "ToolTip": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Program.cs",
+              "RelativeToolTip": "MyFirstProject\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAowBwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T13:06:13.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CourseRepository.cs",
+              "DocumentMoniker": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Repositories\\CourseRepository.cs",
+              "RelativeDocumentMoniker": "MyFirstProject\\Repositories\\CourseRepository.cs",
+              "ToolTip": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Repositories\\CourseRepository.cs",
+              "RelativeToolTip": "MyFirstProject\\Repositories\\CourseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T14:18:27.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ICourseRepository.cs",
+              "DocumentMoniker": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Repositories\\ICourseRepository.cs",
+              "RelativeDocumentMoniker": "MyFirstProject\\Repositories\\ICourseRepository.cs",
+              "ToolTip": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Repositories\\ICourseRepository.cs",
+              "RelativeToolTip": "MyFirstProject\\Repositories\\ICourseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T14:21:41.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ICourseStudentsRepository.cs",
+              "DocumentMoniker": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Repositories\\ICourseStudentsRepository.cs",
+              "RelativeDocumentMoniker": "MyFirstProject\\Repositories\\ICourseStudentsRepository.cs",
+              "ToolTip": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Repositories\\ICourseStudentsRepository.cs",
+              "RelativeToolTip": "MyFirstProject\\Repositories\\ICourseStudentsRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T14:17:20.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Views\\Instructors\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyFirstProject\\Views\\Instructors\\Index.cshtml",
+              "ToolTip": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Views\\Instructors\\Index.cshtml",
+              "RelativeToolTip": "MyFirstProject\\Views\\Instructors\\Index.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAcwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-07T10:54:15.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CourseStudentsRepository.cs",
+              "DocumentMoniker": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Repositories\\CourseStudentsRepository.cs",
+              "RelativeDocumentMoniker": "MyFirstProject\\Repositories\\CourseStudentsRepository.cs",
+              "ToolTip": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Repositories\\CourseStudentsRepository.cs",
+              "RelativeToolTip": "MyFirstProject\\Repositories\\CourseStudentsRepository.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAADwv0QAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T13:35:57.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CourseStudentsGroupViewModel.cs",
+              "DocumentMoniker": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Models\\CourseStudentsGroupViewModel.cs",
+              "RelativeDocumentMoniker": "MyFirstProject\\Models\\CourseStudentsGroupViewModel.cs",
+              "ToolTip": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Models\\CourseStudentsGroupViewModel.cs",
+              "RelativeToolTip": "MyFirstProject\\Models\\CourseStudentsGroupViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T13:26:48.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Course.cs",
+              "DocumentMoniker": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "MyFirstProject\\Models\\Course.cs",
+              "ToolTip": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Models\\Course.cs",
+              "RelativeToolTip": "MyFirstProject\\Models\\Course.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T12:46:35.068Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "MyFirstProject\\Models\\AppDbContext.cs",
+              "ToolTip": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "MyFirstProject\\Models\\AppDbContext.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAcwH4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T13:05:38.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CourseStudents.cs",
+              "DocumentMoniker": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Models\\CourseStudents.cs",
+              "RelativeDocumentMoniker": "MyFirstProject\\Models\\CourseStudents.cs",
+              "ToolTip": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Models\\CourseStudents.cs",
+              "RelativeToolTip": "MyFirstProject\\Models\\CourseStudents.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T13:19:08.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AuthorizeStudentFilter.cs",
+              "DocumentMoniker": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Filters\\AuthorizeStudentFilter.cs",
+              "RelativeDocumentMoniker": "MyFirstProject\\Filters\\AuthorizeStudentFilter.cs",
+              "ToolTip": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Filters\\AuthorizeStudentFilter.cs",
+              "RelativeToolTip": "MyFirstProject\\Filters\\AuthorizeStudentFilter.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAcwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T13:09:21.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "PaginatedList.cs",
+              "DocumentMoniker": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Helpers\\PaginatedList.cs",
+              "RelativeDocumentMoniker": "MyFirstProject\\Helpers\\PaginatedList.cs",
+              "ToolTip": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Helpers\\PaginatedList.cs",
+              "RelativeToolTip": "MyFirstProject\\Helpers\\PaginatedList.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAADwvzMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T00:20:22.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "F:\\ITI\\MyFirstProject\\MyFirstProject\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "MyFirstProject\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "F:\\ITI\\MyFirstProject\\MyFirstProject\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "MyFirstProject\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T23:02:02.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Views\\Students\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MyFirstProject\\Views\\Students\\Edit.cshtml",
+              "ToolTip": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Views\\Students\\Edit.cshtml",
+              "RelativeToolTip": "MyFirstProject\\Views\\Students\\Edit.cshtml",
+              "ViewState": "AgIAACsAAAAAAAAAAAAcwE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-07T11:32:46.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Views\\Students\\Details.cshtml",
+              "RelativeDocumentMoniker": "MyFirstProject\\Views\\Students\\Details.cshtml",
+              "ToolTip": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Views\\Students\\Details.cshtml",
+              "RelativeToolTip": "MyFirstProject\\Views\\Students\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-07T11:36:01.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Views\\Students\\Create.cshtml",
+              "RelativeDocumentMoniker": "MyFirstProject\\Views\\Students\\Create.cshtml",
+              "ToolTip": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Views\\Students\\Create.cshtml",
+              "RelativeToolTip": "MyFirstProject\\Views\\Students\\Create.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAcwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-07T00:03:11.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "MyFirstProject\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "MyFirstProject\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-05T16:25:02.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MyFirstProject\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MyFirstProject\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAcwIAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-05T13:23:17.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Views\\Instructors\\Edit.cshtml",
+              "RelativeDocumentMoniker": "MyFirstProject\\Views\\Instructors\\Edit.cshtml",
+              "ToolTip": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Views\\Instructors\\Edit.cshtml",
+              "RelativeToolTip": "MyFirstProject\\Views\\Instructors\\Edit.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAcwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-07T11:01:38.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MyFirstProject\\Views\\Home\\Index.cshtml",
+              "ToolTip": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MyFirstProject\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAcwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-05T16:25:06.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Views\\CourseStudents\\Details.cshtml",
+              "RelativeDocumentMoniker": "MyFirstProject\\Views\\CourseStudents\\Details.cshtml",
+              "ToolTip": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Views\\CourseStudents\\Details.cshtml",
+              "RelativeToolTip": "MyFirstProject\\Views\\CourseStudents\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-07T12:55:24.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "MyFirstProject\\Views\\Account\\Login.cshtml",
+              "ToolTip": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "MyFirstProject\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAcwCoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-05T14:14:08.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Views\\Account\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "MyFirstProject\\Views\\Account\\AccessDenied.cshtml",
+              "ToolTip": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Views\\Account\\AccessDenied.cshtml",
+              "RelativeToolTip": "MyFirstProject\\Views\\Account\\AccessDenied.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAcwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-06T22:52:06.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "MyFirstProject\\Controllers\\StudentsController.cs",
+              "ToolTip": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "MyFirstProject\\Controllers\\StudentsController.cs",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAUwJgAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T13:16:16.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MyFirstProject\\Controllers\\HomeController.cs",
+              "ToolTip": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MyFirstProject\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T12:49:46.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Views\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "MyFirstProject\\Views\\Account\\Logout.cshtml",
+              "ToolTip": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Views\\Account\\Logout.cshtml",
+              "RelativeToolTip": "MyFirstProject\\Views\\Account\\Logout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-05T16:28:01.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "MyFirstProject\\Models\\ErrorViewModel.cs",
+              "ToolTip": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "MyFirstProject\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T12:47:20.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "DesignTimeDbContextFactory.cs",
+              "DocumentMoniker": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Models\\DesignTimeDbContextFactory.cs",
+              "RelativeDocumentMoniker": "MyFirstProject\\Models\\DesignTimeDbContextFactory.cs",
+              "ToolTip": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Models\\DesignTimeDbContextFactory.cs",
+              "RelativeToolTip": "MyFirstProject\\Models\\DesignTimeDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T12:47:15.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "20251007104814_MakeInstructorFieldsNullable.cs",
+              "DocumentMoniker": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Migrations\\20251007104814_MakeInstructorFieldsNullable.cs",
+              "RelativeDocumentMoniker": "MyFirstProject\\Migrations\\20251007104814_MakeInstructorFieldsNullable.cs",
+              "ToolTip": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Migrations\\20251007104814_MakeInstructorFieldsNullable.cs",
+              "RelativeToolTip": "MyFirstProject\\Migrations\\20251007104814_MakeInstructorFieldsNullable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T10:48:14.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\ITI\\MyFirstProject\\MyFirstProject\\appsettings.json",
+              "RelativeDocumentMoniker": "MyFirstProject\\appsettings.json",
+              "ToolTip": "F:\\ITI\\MyFirstProject\\MyFirstProject\\appsettings.json",
+              "RelativeToolTip": "MyFirstProject\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-05T12:58:41.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "MyFirstProject\\Properties\\launchSettings.json",
+              "ToolTip": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Properties\\launchSettings.json",
+              "RelativeToolTip": "MyFirstProject\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-05T12:57:13.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "MyFirstProject",
+              "DocumentMoniker": "F:\\ITI\\MyFirstProject\\MyFirstProject\\MyFirstProject.csproj",
+              "RelativeDocumentMoniker": "MyFirstProject\\MyFirstProject.csproj",
+              "ToolTip": "F:\\ITI\\MyFirstProject\\MyFirstProject\\MyFirstProject.csproj",
+              "RelativeToolTip": "MyFirstProject\\MyFirstProject.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-05T12:57:07.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "IReadableRepository.cs",
+              "DocumentMoniker": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Repositories\\IReadableRepository.cs",
+              "RelativeDocumentMoniker": "MyFirstProject\\Repositories\\IReadableRepository.cs",
+              "ToolTip": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Repositories\\IReadableRepository.cs",
+              "RelativeToolTip": "MyFirstProject\\Repositories\\IReadableRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T00:26:12.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "IWritableRepository.cs",
+              "DocumentMoniker": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Repositories\\IWritableRepository.cs",
+              "RelativeDocumentMoniker": "MyFirstProject\\Repositories\\IWritableRepository.cs",
+              "ToolTip": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Repositories\\IWritableRepository.cs",
+              "RelativeToolTip": "MyFirstProject\\Repositories\\IWritableRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T00:25:51.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "20251005175920_AddPasswordInInstractour.cs",
+              "DocumentMoniker": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Migrations\\20251005175920_AddPasswordInInstractour.cs",
+              "RelativeDocumentMoniker": "MyFirstProject\\Migrations\\20251005175920_AddPasswordInInstractour.cs",
+              "ToolTip": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Migrations\\20251005175920_AddPasswordInInstractour.cs",
+              "RelativeToolTip": "MyFirstProject\\Migrations\\20251005175920_AddPasswordInInstractour.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T17:59:20.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "20251005130403_InitialCreate.cs",
+              "DocumentMoniker": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Migrations\\20251005130403_InitialCreate.cs",
+              "RelativeDocumentMoniker": "MyFirstProject\\Migrations\\20251005130403_InitialCreate.cs",
+              "ToolTip": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Migrations\\20251005130403_InitialCreate.cs",
+              "RelativeToolTip": "MyFirstProject\\Migrations\\20251005130403_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T13:04:04.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "20251005130032_FixPendingChanges.cs",
+              "DocumentMoniker": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Migrations\\20251005130032_FixPendingChanges.cs",
+              "RelativeDocumentMoniker": "MyFirstProject\\Migrations\\20251005130032_FixPendingChanges.cs",
+              "ToolTip": "F:\\ITI\\MyFirstProject\\MyFirstProject\\Migrations\\20251005130032_FixPendingChanges.cs",
+              "RelativeToolTip": "MyFirstProject\\Migrations\\20251005130032_FixPendingChanges.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T13:00:32.948Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
