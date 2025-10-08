@@ -1,0 +1,69 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject UserManager<IdentityUser> UserManager
+@inject SignInManager<IdentityUser> SignInManager
+@using Microsoft.AspNetCore.Http
+
+@{
+    ViewData["Title"] = "Home";
+
+    // Student Session
+    var studentName = Context.Session.GetString("StudentName");
+
+    // Identity User
+    string loggedUserName = null;
+    string loggedUserRole = null;
+    if (SignInManager.IsSignedIn(User))
+    {
+        var user = UserManager.GetUserAsync(User).Result;
+        if (user != null)
+        {
+            loggedUserName = user.UserName;
+            var roles = UserManager.GetRolesAsync(user).Result;
+            loggedUserRole = roles.FirstOrDefault();
+        }
+    }
+}
+
+<div class="container mt-5">
+    <div class="card shadow-lg rounded-4 p-5 bg-light text-center">
+        <h1 class="mb-4 display-5 fw-bold">Welcome to EduPlatform</h1>
+        <p class="lead mb-4">
+            This is a sample educational platform where different roles can manage and interact with courses efficiently:
+        </p>
+
+        <div class="row justify-content-center text-start mb-4">
+            <div class="col-md-8 col-lg-6">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><strong>Students:</strong> can enroll in available courses and view their enrolled courses.</li>
+                    <li class="list-group-item"><strong>Instructors:</strong> can manage and view the courses they teach.</li>
+                    <li class="list-group-item"><strong>Admins:</strong> have full control over departments, courses, instructors, and students.</li>
+                    <li class="list-group-item"><strong>HR:</strong> can edit and manage instructors and students efficiently.</li>
+                </ul>
+            </div>
+        </div>
+
+        <p class="mb-4">
+            Explore the platform and see your role-specific dashboard after logging in.
+        </p>
+
+        @if (!string.IsNullOrEmpty(studentName))
+        {
+            <div class="alert alert-success shadow-sm rounded-3 mt-3">
+                Hello, <strong>@studentName</strong>! You are already logged in as <strong>Student</strong>.
+            </div>
+        }
+        else if (!string.IsNullOrEmpty(loggedUserName))
+        {
+            <div class="alert alert-info shadow-sm rounded-3 mt-3">
+                Hello, <strong>@loggedUserName</strong>! You are logged in as <strong>@loggedUserRole</strong>.
+            </div>
+        }
+        else
+        {
+            <div class="d-flex justify-content-center gap-3 mt-4 flex-wrap">
+                <a asp-controller="Account" asp-action="Register" class="btn btn-primary btn-lg px-5 py-3 shadow-sm rounded-3">Register</a>
+                <a asp-controller="Account" asp-action="Login" class="btn btn-outline-primary btn-lg px-5 py-3 shadow-sm rounded-3">Login</a>
+            </div>
+        }
+    </div>
+</div>

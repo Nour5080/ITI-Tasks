@@ -1,0 +1,285 @@
+﻿@model X.PagedList.IPagedList<MyFirstProject.Models.Course>
+@using MyFirstProject.Models
+@using X.PagedList.Mvc.Core
+@using X.PagedList
+
+@{
+    ViewData["Title"] = "Courses";
+    var roles = ViewBag.Roles as List<string> ?? new List<string>();
+    var availableCourses = ViewBag.AvailableCourses as IPagedList<Course> ?? new StaticPagedList<Course>(new List<Course>(), 1, 5, 0);
+    var myCourses = ViewBag.MyCourses as IPagedList<Course> ?? new StaticPagedList<Course>(new List<Course>(), 1, 5, 0);
+}
+
+<h2 class="mb-4">Courses</h2>
+
+@if (roles.Contains("Student"))
+{
+    <h4 class="mt-4">Available Courses</h4>
+    <table class="table table-hover table-bordered">
+        <thead class="table-dark">
+            <tr>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Hours</th>
+                <th>Degree</th>
+                <th>Min Degree</th>
+                <th>Instructors</th>
+                <th style="width: 180px;">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (availableCourses.Any())
+            {
+                @foreach (var item in availableCourses)
+                {
+                    <tr>
+                        <td>@item.Name</td>
+                        <td>@item.Department?.Name</td>
+                        <td>@item.Hours</td>
+                        <td>@item.Degree</td>
+                        <td>@item.MinimumDegree</td>
+                        <td>
+                            @if (item.Instructors != null && item.Instructors.Any())
+                            {
+                                <ul class="mb-0 ps-3">
+                                    @foreach (var i in item.Instructors)
+                                    {
+                                        <li>@i.Name</li>
+                                    }
+                                </ul>
+                            }
+                            else
+                            {
+                                <span class="text-muted">No instructors</span>
+                            }
+                        </td>
+                        <td class="d-flex gap-2">
+                            <a asp-controller="Courses" asp-action="Details" asp-route-id="@item.Id" class="btn btn-info btn-sm">Details</a>
+                            <form asp-action="JoinCourse" method="post" class="mb-0">
+                                <input type="hidden" name="courseId" value="@item.Id" />
+                                <button type="submit" class="btn btn-primary btn-sm">Join</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr class="table-secondary text-center">
+                    <td colspan="7">No courses available</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <div class="d-flex justify-content-center mt-3">
+        @Html.PagedListPager(availableCourses, page => Url.Action("Index", new { page }), new PagedListRenderOptions
+        {
+            LiElementClasses = new[] { "page-item" },
+        PageClasses = new[] { "page-link" },
+        UlElementClasses = new[] { "pagination" },
+        ContainerDivClasses = new[] { "d-flex justify-content-center" }
+        })
+</div>
+
+<h4 class="mt-5">My Courses</h4>
+<table class="table table-hover table-bordered">
+    <thead class="table-dark">
+        <tr>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Hours</th>
+            <th>Degree</th>
+            <th>Min Degree</th>
+            <th>Instructors</th>
+            <th style="width: 120px;">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (myCourses.Any())
+            {
+                @foreach (var item in myCourses)
+                {
+                    <tr>
+                        <td>@item.Name</td>
+                        <td>@item.Department?.Name</td>
+                        <td>@item.Hours</td>
+                        <td>@item.Degree</td>
+                        <td>@item.MinimumDegree</td>
+                        <td>
+                            @if (item.Instructors != null && item.Instructors.Any())
+                            {
+                                <ul class="mb-0 ps-3">
+                                    @foreach (var i in item.Instructors)
+                                    {
+                                        <li>@i.Name</li>
+                                    }
+                                </ul>
+                            }
+                            else
+                            {
+                                <span class="text-muted">No instructors</span>
+                            }
+                        </td>
+                        <td>
+                            <a asp-controller="Courses" asp-action="Details" asp-route-id="@item.Id" class="btn btn-info btn-sm">Details</a>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr class="table-secondary text-center">
+                    <td colspan="7">No courses found</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <div class="d-flex justify-content-center mt-3">
+        @Html.PagedListPager(myCourses, page => Url.Action("Index", new { page }), new PagedListRenderOptions
+        {
+            LiElementClasses = new[] { "page-item" },
+        PageClasses = new[] { "page-link" },
+        UlElementClasses = new[] { "pagination" },
+        ContainerDivClasses = new[] { "d-flex justify-content-center" }
+        })
+</div>
+}
+else if (roles.Contains("Instructor"))
+{
+    <h4 class="mt-4">My Courses</h4>
+    <table class="table table-hover table-bordered">
+        <thead class="table-dark">
+            <tr>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Hours</th>
+                <th>Degree</th>
+                <th>Min Degree</th>
+                <th>Instructors</th>
+                <th style="width: 120px;">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.Any())
+            {
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Name</td>
+                        <td>@item.Department?.Name</td>
+                        <td>@item.Hours</td>
+                        <td>@item.Degree</td>
+                        <td>@item.MinimumDegree</td>
+                        <td>
+                            @if (item.Instructors != null && item.Instructors.Any())
+                            {
+                                <ul class="mb-0 ps-3">
+                                    @foreach (var i in item.Instructors)
+                                    {
+                                        <li>@i.Name</li>
+                                    }
+                                </ul>
+                            }
+                            else
+                            {
+                                <span class="text-muted">No instructors</span>
+                            }
+                        </td>
+                        <td>
+                            <a asp-controller="Courses" asp-action="Details" asp-route-id="@item.Id" class="btn btn-info btn-sm">Details</a>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr class="table-secondary text-center">
+                    <td colspan="7">You are not assigned to any courses.</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <div class="d-flex justify-content-center mt-3">
+        @Html.PagedListPager(Model, page => Url.Action("Index", new { page }), new PagedListRenderOptions
+        {
+            LiElementClasses = new[] { "page-item" },
+        PageClasses = new[] { "page-link" },
+        UlElementClasses = new[] { "pagination" },
+        ContainerDivClasses = new[] { "d-flex justify-content-center" }
+        })
+</div>
+}
+else if (roles.Contains("Admin"))
+{
+    <h4 class="mt-4">All Courses</h4>
+    <table class="table table-hover table-bordered">
+        <thead class="table-dark">
+            <tr>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Hours</th>
+                <th>Degree</th>
+                <th>Min Degree</th>
+                <th>Instructors</th>
+                <th style="width: 180px;">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.Any())
+            {
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Name</td>
+                        <td>@item.Department?.Name</td>
+                        <td>@item.Hours</td>
+                        <td>@item.Degree</td>
+                        <td>@item.MinimumDegree</td>
+                        <td>
+                            @if (item.Instructors != null && item.Instructors.Any())
+                            {
+                                <ul class="mb-0 ps-3">
+                                    @foreach (var i in item.Instructors)
+                                    {
+                                        <li>@i.Name</li>
+                                    }
+                                </ul>
+                            }
+                            else
+                            {
+                                <span class="text-muted">No instructors</span>
+                            }
+                        </td>
+                        <td class="d-flex gap-2">
+                            <a asp-controller="Courses" asp-action="Details" asp-route-id="@item.Id" class="btn btn-info btn-sm">Details</a>
+                            <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Edit</a>
+                            <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Delete</a>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr class="table-secondary text-center">
+                    <td colspan="7">No courses found.</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <div class="d-flex justify-content-center mt-3">
+        @Html.PagedListPager(Model, page => Url.Action("Index", new { page }), new PagedListRenderOptions
+        {
+            LiElementClasses = new[] { "page-item" },
+        PageClasses = new[] { "page-link" },
+        UlElementClasses = new[] { "pagination" },
+        ContainerDivClasses = new[] { "d-flex justify-content-center" }
+        })
+</div>
+
+@* زرار Create للـ Admin فقط *@
+<a asp-action="Create" class="btn btn-success mt-3">➕ Add Course</a>
+}
